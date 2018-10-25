@@ -20,4 +20,7 @@
 *.iml
 out
 gen
+<<<<<<< HEAD
 test1.go
+=======
+>>>>>>> bb16152ca5addac9e43e61d9403f615f444b2a55
