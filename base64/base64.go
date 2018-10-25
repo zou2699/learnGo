@@ -9,7 +9,6 @@ import (
 
 func main() {
 	if len(os.Args) == 3 {
-		fmt.Println(os.Args)
 		if os.Args[1] == "encode" {
 			encodedString := base64.StdEncoding.EncodeToString([]byte(os.Args[2]))
 			fmt.Println("encodedString:", encodedString)
